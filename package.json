@@ -1,7 +1,7 @@
 {
-  "name": "helios-distribution-types",
-  "version": "1.0.0-rc.2",
-  "description": "Type interfaces for Helios Launcher's distribution specification.",
+  "name": "hl-distribution-types-sir",
+  "version": "1.0.0-sir-1",
+  "description": "Type interfaces for Helios Launcher's distribution specification - Sirs Edition.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/helios-distribution-types.git"
+    "url": "git+https://github.com/SirOMGitsYOU/helios-distribution-types.git"
   },
   "author": "Daniel Scalzi",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/dscalzi/helios-distribution-types/issues"
+    "url": "https://github.com/SirOMGitsYOU/helios-distribution-types"
   },
   "homepage": "https://github.com/dscalzi/helios-distribution-types#readme",
   "devDependencies": {
