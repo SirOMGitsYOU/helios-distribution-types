@@ -68,6 +68,13 @@ export interface Server {
     mainServer?: boolean
 
     /**
+     * This adds the specific default "" string for customer servers but also allows 
+     * distribution.json to bre generated with pre-defined serverCodes so they are not lost 
+     * during distribution building.
+     */
+    serverCode: string
+
+    /**
      * Whether or not the server can be autoconnected to. If false, the server will
      * not be autoconnected to even when the user has the autoconnect setting enabled.
      */
